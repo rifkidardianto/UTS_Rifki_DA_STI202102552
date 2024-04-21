@@ -8,7 +8,7 @@ class MyApp extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    const String appTitle = 'Personal Data';
+    const String appTitle = 'Profile';
     return MaterialApp(
       title: appTitle,
       home: Scaffold(
@@ -26,12 +26,70 @@ class MyApp extends StatelessWidget {
                 padding: const EdgeInsets.all(16.0),
                 decoration: BoxDecoration(color: Colors.grey.shade200),
                 child: const Text(
-                    'I am Rifki Dwi Ardianto, a Muslim who was born in Semarang on 12 October 1987.'
-                    ' I am married and have one son. '
-                    ' I have worked in a branch of a private company which operates in the mining sector,'
-                    ' as a supervisor in the IT section. '
-                    ' And continue to pursue higher education with a bachelors degree in informatics engineering at STMIK Widya Utama university in Purwokerto. '),
+                    'Enjoyment in work brings perfection to the results.'),
               ),
+              _buildTitle("Personal Data"),
+              const Row(
+                children: <Widget>[
+                  SizedBox(width: 10.0),
+                  SizedBox(width: 10.0),
+                  Text(
+                    "Name                      : Rifki Dwi Ardianto",
+                    style: TextStyle(fontSize: 16.0),
+                  ),
+                ],
+              ),
+              const Row(
+                children: <Widget>[
+                  SizedBox(width: 10.0),
+                  SizedBox(width: 10.0),
+                  Text(
+                    "Place and date of birth  : Semarang, xx Oct xxxx",
+                    style: TextStyle(fontSize: 16.0),
+                  ),
+                ],
+              ),
+              const Row(
+                children: <Widget>[
+                  SizedBox(width: 10.0),
+                  SizedBox(width: 10.0),
+                  Text(
+                    "Gender                    : Male",
+                    style: TextStyle(fontSize: 16.0),
+                  ),
+                ],
+              ),
+              const Row(
+                children: <Widget>[
+                  SizedBox(width: 10.0),
+                  SizedBox(width: 10.0),
+                  Text(
+                    "Religion                  : Islam",
+                    style: TextStyle(fontSize: 16.0),
+                  ),
+                ],
+              ),
+              const Row(
+                children: <Widget>[
+                  SizedBox(width: 10.0),
+                  SizedBox(width: 10.0),
+                  Text(
+                    "Status                     : Married",
+                    style: TextStyle(fontSize: 16.0),
+                  ),
+                ],
+              ),
+              const Row(
+                children: <Widget>[
+                  SizedBox(width: 10.0),
+                  SizedBox(width: 10.0),
+                  Text(
+                    "Address                  : Samarinda",
+                    style: TextStyle(fontSize: 16.0),
+                  ),
+                ],
+              ),
+              const SizedBox(height: 10.0),
               _buildTitle("Skills"),
               const SizedBox(height: 10.0),
               _buildSkillRow("Ms Office", 0.80),

@@ -10,8 +10,7 @@ Tugas   : Assignment UTS
 
 ![Capture](https://github.com/rifkidardianto/UTS_Rifki_DA_STI202102552/assets/165438349/d9ff236e-742a-4fe1-ba5a-090cb5405a03)
 
-![WhatsApp Image 2024-04-21 at 09 19 42_3cc191db](https://github.com/rifkidardianto/UTS_Rifki_DA_STI202102552/assets/165438349/512a45b7-351a-40bd-b257-0d8fda5700bb)
-![WhatsApp Image 2024-04-21 at 09 19 43_ba6e4280](https://github.com/rifkidardianto/UTS_Rifki_DA_STI202102552/assets/165438349/b2305bd5-a2f1-4b70-a138-cc5c8ce31ea2)
+![image](https://github.com/rifkidardianto/UTS_Rifki_DA_STI202102552/assets/165438349/3be1a966-8d89-4509-8f22-186e771c9f5a)
 
 
 

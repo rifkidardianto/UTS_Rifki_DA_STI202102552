@@ -34,7 +34,7 @@ class MyApp extends StatelessWidget {
                   SizedBox(width: 10.0),
                   SizedBox(width: 10.0),
                   Text(
-                    "Name                      : Rifki Dwi Ardianto",
+                    "Name                  : Rifki Dwi Ardianto",
                     style: TextStyle(fontSize: 16.0),
                   ),
                 ],
@@ -44,7 +44,7 @@ class MyApp extends StatelessWidget {
                   SizedBox(width: 10.0),
                   SizedBox(width: 10.0),
                   Text(
-                    "Place and date of birth  : Semarang, xx Oct xxxx",
+                    "Place and date   : Semarang, xx Oct xxxx",
                     style: TextStyle(fontSize: 16.0),
                   ),
                 ],
@@ -54,7 +54,7 @@ class MyApp extends StatelessWidget {
                   SizedBox(width: 10.0),
                   SizedBox(width: 10.0),
                   Text(
-                    "Gender                    : Male",
+                    "of birth",
                     style: TextStyle(fontSize: 16.0),
                   ),
                 ],
@@ -64,7 +64,7 @@ class MyApp extends StatelessWidget {
                   SizedBox(width: 10.0),
                   SizedBox(width: 10.0),
                   Text(
-                    "Religion                  : Islam",
+                    "Gender                : Male",
                     style: TextStyle(fontSize: 16.0),
                   ),
                 ],
@@ -74,7 +74,7 @@ class MyApp extends StatelessWidget {
                   SizedBox(width: 10.0),
                   SizedBox(width: 10.0),
                   Text(
-                    "Status                     : Married",
+                    "Religion              : Islam",
                     style: TextStyle(fontSize: 16.0),
                   ),
                 ],
@@ -84,7 +84,17 @@ class MyApp extends StatelessWidget {
                   SizedBox(width: 10.0),
                   SizedBox(width: 10.0),
                   Text(
-                    "Address                  : Samarinda",
+                    "Status                 : Married",
+                    style: TextStyle(fontSize: 16.0),
+                  ),
+                ],
+              ),
+              const Row(
+                children: <Widget>[
+                  SizedBox(width: 10.0),
+                  SizedBox(width: 10.0),
+                  Text(
+                    "Address              : Samarinda",
                     style: TextStyle(fontSize: 16.0),
                   ),
                 ],

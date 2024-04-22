@@ -44,7 +44,7 @@ class MyApp extends StatelessWidget {
                   SizedBox(width: 10.0),
                   SizedBox(width: 10.0),
                   Text(
-                    "Place and date   : Semarang, xx Oct xxxx",
+                    "Place and date   : Semarang, 12 Oct 1987",
                     style: TextStyle(fontSize: 16.0),
                   ),
                 ],

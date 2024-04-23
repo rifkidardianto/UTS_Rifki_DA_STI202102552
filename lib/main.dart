@@ -29,76 +29,16 @@ class MyApp extends StatelessWidget {
                     'Enjoyment in work brings perfection to the results.'),
               ),
               _buildTitle("Personal Data"),
-              const Row(
-                children: <Widget>[
-                  SizedBox(width: 10.0),
-                  SizedBox(width: 10.0),
-                  Text(
-                    "Name                  : Rifki Dwi Ardianto",
-                    style: TextStyle(fontSize: 16.0),
-                  ),
-                ],
-              ),
-              const Row(
-                children: <Widget>[
-                  SizedBox(width: 10.0),
-                  SizedBox(width: 10.0),
-                  Text(
-                    "Place and date   : Semarang, 12 Oct 1987",
-                    style: TextStyle(fontSize: 16.0),
-                  ),
-                ],
-              ),
-              const Row(
-                children: <Widget>[
-                  SizedBox(width: 10.0),
-                  SizedBox(width: 10.0),
-                  Text(
-                    "of birth",
-                    style: TextStyle(fontSize: 16.0),
-                  ),
-                ],
-              ),
-              const Row(
-                children: <Widget>[
-                  SizedBox(width: 10.0),
-                  SizedBox(width: 10.0),
-                  Text(
-                    "Gender                : Male",
-                    style: TextStyle(fontSize: 16.0),
-                  ),
-                ],
-              ),
-              const Row(
-                children: <Widget>[
-                  SizedBox(width: 10.0),
-                  SizedBox(width: 10.0),
-                  Text(
-                    "Religion              : Islam",
-                    style: TextStyle(fontSize: 16.0),
-                  ),
-                ],
-              ),
-              const Row(
-                children: <Widget>[
-                  SizedBox(width: 10.0),
-                  SizedBox(width: 10.0),
-                  Text(
-                    "Status                 : Married",
-                    style: TextStyle(fontSize: 16.0),
-                  ),
-                ],
-              ),
-              const Row(
-                children: <Widget>[
-                  SizedBox(width: 10.0),
-                  SizedBox(width: 10.0),
-                  Text(
-                    "Address              : Samarinda",
-                    style: TextStyle(fontSize: 16.0),
-                  ),
-                ],
-              ),
+              _buildDataRow(item: 'Name :', desc: 'Rifki Dwi Ardianto'),
+              _buildDataRow(
+                  item: 'Place and date of born :',
+                  desc: 'Semarang, 12 October 1987'),
+              _buildDataRow(item: 'Gender :', desc: 'Male'),
+              _buildDataRow(item: 'Religion :', desc: 'Islam'),
+              _buildDataRow(item: 'Status :', desc: 'Married'),
+              _buildDataRow(
+                  item: 'Address :',
+                  desc: 'Jl. MT Haryono, Rawasari, Samarinda Ulu'),
               const SizedBox(height: 10.0),
               _buildTitle("Skills"),
               const SizedBox(height: 10.0),
@@ -315,4 +255,18 @@ class MyApp extends StatelessWidget {
       ],
     );
   }
+}
+
+ListTile _buildDataRow({
+  required String item,
+  String? desc,
+}) {
+  return ListTile(
+    title: Text(
+      item,
+      style: const TextStyle(color: Colors.black, fontWeight: FontWeight.bold),
+    ),
+    subtitle: Text("$desc"),
+    textColor: Colors.grey.shade900,
+  );
 }

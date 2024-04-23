@@ -8,9 +8,9 @@ NIM     : STI202102552
 
 Tugas   : Assignment UTS
 
-![Capture](https://github.com/rifkidardianto/UTS_Rifki_DA_STI202102552/assets/165438349/d9ff236e-742a-4fe1-ba5a-090cb5405a03)
+![image](https://github.com/rifkidardianto/UTS_Rifki_DA_STI202102552/assets/165438349/6b15ba86-8861-4507-be18-153631b144de)
 
-![image](https://github.com/rifkidardianto/UTS_Rifki_DA_STI202102552/assets/165438349/3be1a966-8d89-4509-8f22-186e771c9f5a)
+![image](https://github.com/rifkidardianto/UTS_Rifki_DA_STI202102552/assets/165438349/e66895a9-34cd-4fe2-aa5c-e02976361ced)
 
 
 
